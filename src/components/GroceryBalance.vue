@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="GroceryBalance">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -32,11 +32,13 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'GroceryBalance',
   props: {
-    msg: String
-  }
-}
+    msg: String    
+  },
+  data: function () {
+    
+ } 
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
